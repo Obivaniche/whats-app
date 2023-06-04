@@ -9,12 +9,12 @@ function App() {
     <div className='app'>
       <div className='app__body'>
         <Router>
+
+          <Sidebar />
+
           <Routes>
-
-            <Route path='/app' element={[<Sidebar />,<Chat />]} />
-
-            <Route path='/' />
-
+            <Route path='/rooms/:roomId' element={<Chat />} />
+            <Route path='/' element={<Chat />} />
           </Routes>
         </Router>
       </div>
