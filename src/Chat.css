@@ -32,10 +32,15 @@
 .chat__message {
     position: relative;
     width: fit-content;
+    margin-bottom: 10px;
     border-radius: 10px;
     font-size: 16px;
     padding: 10px;
     background-color: white;
+}
+
+.chat__message:last-of-type {
+  margin-bottom: 0;
 }
 
 .chat__name {
