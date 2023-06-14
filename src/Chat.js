@@ -40,7 +40,6 @@ function Chat() {
 
   const sendMessage = (e) => {
     e.preventDefault();
-    console.log('Ваше сообщение: ', input);
     db.collection('rooms').doc(roomId)
     .collection('messages').add({
       message: input,
@@ -76,8 +75,8 @@ function Chat() {
 
       <div className='chat__body'>
         {messages.map((message) => (
-          <p className={`chat__message ${message.name === user.displayName && 'chat__reciver'}`}>
-            <span className='chat__name'>{message.name}</span>
+          <p className={`chat__message ${message.user === user.displayName && 'chat__reciver'}`}>
+            <span className='chat__name'>{message.user}</span>
             {message.message}
             <span className='chat__timestamp'>
               {new Date(message.timestamp?.toDate()).toUTCString()}

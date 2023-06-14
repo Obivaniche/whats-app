@@ -32,7 +32,7 @@
 .chat__message {
     position: relative;
     width: fit-content;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
     font-size: 16px;
     padding: 10px;
