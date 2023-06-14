@@ -56,7 +56,9 @@ function Chat() {
         <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
         <div className='chat__headerInfo'>
           <h3>{roomName}</h3>
-          <p>Был(а) в сети ...</p>
+          <p>Был(а) в сети{" "}
+          {new Date(
+            messages[messages.length -1]?.timestamp?.toDate()).toUTCString()}</p>
         </div>
         <div className='chat__headerRight'>
           <IconButton>
