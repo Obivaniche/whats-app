@@ -1,6 +1,7 @@
 {
   "name": "whats-app",
   "version": "0.1.0",
+  "homepage": "https://obivaniche.github.io/whats-app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
