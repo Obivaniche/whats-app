@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0095fa0d.css",
-    "main.js": "/static/js/main.6d9a9e85.js",
-    "static/js/787.a79a5cc6.chunk.js": "/static/js/787.a79a5cc6.chunk.js",
-    "index.html": "/index.html",
-    "main.0095fa0d.css.map": "/static/css/main.0095fa0d.css.map",
-    "main.6d9a9e85.js.map": "/static/js/main.6d9a9e85.js.map",
-    "787.a79a5cc6.chunk.js.map": "/static/js/787.a79a5cc6.chunk.js.map"
+    "main.css": "/whats-app/static/css/main.0095fa0d.css",
+    "main.js": "/whats-app/static/js/main.e85fdced.js",
+    "static/js/787.a79a5cc6.chunk.js": "/whats-app/static/js/787.a79a5cc6.chunk.js",
+    "index.html": "/whats-app/index.html",
+    "main.0095fa0d.css.map": "/whats-app/static/css/main.0095fa0d.css.map",
+    "main.e85fdced.js.map": "/whats-app/static/js/main.e85fdced.js.map",
+    "787.a79a5cc6.chunk.js.map": "/whats-app/static/js/787.a79a5cc6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0095fa0d.css",
-    "static/js/main.6d9a9e85.js"
+    "static/js/main.e85fdced.js"
   ]
 }
